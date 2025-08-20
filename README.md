@@ -1,18 +1,31 @@
 # BIG BANG Generator
 
-Generates numbers 1..100 where:
-- Multiples of 3 → "BIG"
-- Multiples of 5 → "BANG"
-- Multiples of 3 and 5 → "BIGBANG"
+This project is a simple Node.js script that generates an output file (`output.json`) with sample data.
 
-## How to run (local)
-1. Make sure Node.js is installed (`node -v`).
-2. Open terminal in this folder.
-3. Run: node bigbang.js
-4. See `output.json` generated in the same folder.
+---
 
-Files:
-- `bigbang.js` — generator script
-- `output.json` — generated result
-- `README.md` — instructions
+## How to Run (Local)
+
+1. Make sure **Node.js** is installed.  
+   Check version with:
+   ```bash
+   node -v
+
+2. Clone this repository or download the files.
+
+3. Open your terminal inside the project folder.
+
+4. Run the script:
+   node bigbang.js
+
+   The results will be saved in output.json.
+
+## Files Included
+
+- `bigbang.js` — generator script  
+- `output.json` — generated result  
+- `README.md` — instructions  
+
+
+
 
